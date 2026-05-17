@@ -13,7 +13,7 @@ export function Wordmark({ className = "" }: { className?: string }) {
       <div className="flex items-center gap-3 text-[0.6rem] tracking-widest-xl uppercase opacity-80">
         <span>ESTD</span>
         <MountainMark className="h-4 w-16 text-current" />
-        <span>2024</span>
+        <span>2026</span>
       </div>
       <h1 className="font-display text-3xl sm:text-4xl md:text-5xl tracking-tight leading-none mt-1">
         HIGHLINE

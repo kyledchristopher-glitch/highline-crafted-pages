@@ -72,18 +72,30 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Highline Provisions offers premium, field-crafted hot sauces with a cinematic brand experience." },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Highline Provisions offers premium, field-crafted hot sauces with a cinematic brand experience." },
+      { title: "Highline Provisions | Field Crafted Heat" },
+      {
+        name: "description",
+        content:
+          "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
+      },
+      { name: "author", content: "Highline Provisions" },
+      { property: "og:title", content: "Highline Provisions | Field Crafted Heat" },
+      {
+        property: "og:description",
+        content:
+          "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
-      { name: "twitter:description", content: "Highline Provisions offers premium, field-crafted hot sauces with a cinematic brand experience." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ebe6830-00ba-40f2-831a-18ec148f57f0/id-preview-b11802c4--ce4be2fe-b0c6-48cd-8197-531d46467a4f.lovable.app-1778879290973.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ebe6830-00ba-40f2-831a-18ec148f57f0/id-preview-b11802c4--ce4be2fe-b0c6-48cd-8197-531d46467a4f.lovable.app-1778879290973.png" },
+      { property: "og:url", content: "https://highlineprovisions.com/" },
+      { property: "og:image", content: "https://highlineprovisions.com/og-image.jpg" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Highline Provisions | Field Crafted Heat" },
+      {
+        name: "twitter:description",
+        content:
+          "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
+      },
+      { name: "twitter:image", content: "https://highlineprovisions.com/og-image.jpg" },
     ],
     links: [
       {
