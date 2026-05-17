@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://highlineprovisions.com/" },
-      { property: "og:image", content: "https://highlineprovisions.com/og-image.jpg" },
+      { property: "og:url", content: "/" },
+      { property: "og:image", content: "/highline-homepage-reference.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Highline Provisions | Field Crafted Heat" },
       {
@@ -95,7 +95,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
       },
-      { name: "twitter:image", content: "https://highlineprovisions.com/og-image.jpg" },
+      { name: "twitter:image", content: "/highline-homepage-reference.png" },
     ],
     links: [
       {

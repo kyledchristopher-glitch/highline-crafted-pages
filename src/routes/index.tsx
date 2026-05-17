@@ -21,8 +21,8 @@ export const Route = createFileRoute("/")({
           "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://highlineprovisions.com/" },
-      { property: "og:image", content: "https://highlineprovisions.com/og-image.jpg" },
+      { property: "og:url", content: "/" },
+      { property: "og:image", content: "/highline-homepage-reference.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Highline Provisions | Field Crafted Heat" },
       {
@@ -30,9 +30,9 @@ export const Route = createFileRoute("/")({
         content:
           "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
       },
-      { name: "twitter:image", content: "https://highlineprovisions.com/og-image.jpg" },
+      { name: "twitter:image", content: "/highline-homepage-reference.png" },
     ],
-    links: [{ rel: "canonical", href: "https://highlineprovisions.com/" }],
+    links: [{ rel: "canonical", href: "/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -41,44 +41,44 @@ export const Route = createFileRoute("/")({
           "@graph": [
             {
               "@type": "Organization",
-              "@id": "https://highlineprovisions.com/#organization",
+              "@id": "/#organization",
               name: "Highline Provisions",
-              url: "https://highlineprovisions.com/",
+              url: "/",
               slogan: "Field Crafted Heat",
               foundingDate: "2026",
               description:
                 "Premium small-batch hot sauces crafted with smoke, fire-roasted peppers, real ingredients, and Americana field-provision style.",
-              logo: "https://highlineprovisions.com/og-image.jpg",
+              logo: "/highline-homepage-reference.png",
             },
             {
               "@type": "Product",
-              "@id": "https://highlineprovisions.com/#ember",
+              "@id": "/#ember",
               name: "Highline Provisions EMBER",
-              brand: { "@id": "https://highlineprovisions.com/#organization" },
+              brand: { "@id": "/#organization" },
               category: "Hot sauce",
               description:
                 "Mild. Smoked Peach Habanero. Warm stone fruit, soft smoke, balanced heat. Built for eggs, grilled chicken, pork, and cast iron breakfasts.",
-              image: "https://highlineprovisions.com/og-image.jpg",
+              image: "/highline-homepage-reference.png",
             },
             {
               "@type": "Product",
-              "@id": "https://highlineprovisions.com/#ridge",
+              "@id": "/#ridge",
               name: "Highline Provisions RIDGE",
-              brand: { "@id": "https://highlineprovisions.com/#organization" },
+              brand: { "@id": "/#organization" },
               category: "Hot sauce",
               description:
                 "Medium. Fire-Roasted Jalapeño Serrano. Bright green heat, roasted pepper depth, lime, garlic, and open-flame character. Built for tacos, grilled fish, burgers, and everyday use.",
-              image: "https://highlineprovisions.com/og-image.jpg",
+              image: "/highline-homepage-reference.png",
             },
             {
               "@type": "Product",
-              "@id": "https://highlineprovisions.com/#blackline",
+              "@id": "/#blackline",
               name: "Highline Provisions BLACKLINE",
-              brand: { "@id": "https://highlineprovisions.com/#organization" },
+              brand: { "@id": "/#organization" },
               category: "Hot sauce",
               description:
                 "Hot. Black Garlic Chipotle Ghost. Dark smoke, black garlic depth, chipotle, and slow-building ghost pepper heat. Built for steak, chili, wings, and late-night firepit food.",
-              image: "https://highlineprovisions.com/og-image.jpg",
+              image: "/highline-homepage-reference.png",
             },
           ],
         }),
