@@ -168,4 +168,9 @@
     0%, 100% { opacity: 0.9; filter: brightness(1); }
     50% { opacity: 1; filter: brightness(1.1); }
   }
+  .reference-hero-frame {
+    aspect-ratio: 1536 / 710;
+    background: var(--background);
+    overflow: hidden;
+  }
 }
